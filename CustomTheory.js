@@ -144,8 +144,8 @@ var getC1 = (level) => Utils.getStepwisePowerSum(level, 2, 10, 0);
 var getC2 = (level) => BigNumber.TWO.pow(level);
 var getx1 = (level) => Utils.getStepwisePowerSum(level, 2, 10, 0);
 var getx2 = (level) => BigNumber.TWO.pow(level);
-var getx1Exponent = (level) => BigNumber.from(1 + 0.01 * level);
-var getx2Exponent = (level) => BigNumber.from(1 + 0.02 * level);
+var getx1Exponent = (level) => BigNumber.from("1e2048");
+var getx2Exponent = (level) => BigNumber.from("1e2048");
 // var getx1Exponent = (level) => BigNumber.from(1 + 0.00 * level);
 
 init();
