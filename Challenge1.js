@@ -13,7 +13,7 @@ var version = 1;
 var q = BigNumber.ONE;
 
 var q1, q2, c1, c2, x1, y1, x2, y2, x, y, t;
-t = 1;
+t = NaN;
 var q1Exp;
 
 var init = () => {
